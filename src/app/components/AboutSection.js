@@ -12,7 +12,7 @@ export default function AboutSection() {
                 Dr. Brijesh Shrivastava
             </h1>
             <p className="mb-3 leading-relaxed">
-            An Interventional Cardiologist associated with Anant Heart Hospital Bhopal.
+            An <strong>Interventional Cardiologist</strong>  <br/>associated with Anant Heart Hospital Bhopal.
             </p>
             <ul className="mb-6">
             <li className="flex items-center text-left my-auto">
