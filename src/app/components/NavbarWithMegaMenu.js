@@ -227,7 +227,7 @@ function NavList() {
       </Typography>
       <Typography
         as="a"
-        href="#"
+        href="#testimonials"
         variant="h6"
         color="blue-gray"
         className="font-semibold"
@@ -238,13 +238,13 @@ function NavList() {
       </Typography>
       <Typography
         as="a"
-        href="#"
+        href="#footer"
         variant="h6"
         color="blue-gray"
         className="font-semibold"
       >
         <ListItem className="flex items-center hover:text-light-blue-700 gap-2 py-2 pr-4">
-          Contact
+         Contact
         </ListItem>
       </Typography>
     </List>

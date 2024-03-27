@@ -20,7 +20,7 @@ const currentYear = new Date().getFullYear();
 export function FooterBlock() {
   return (<>
     
-    <footer className="relative w-full bg-[#091f3f] text-white z-40">  
+    <footer id="footer" className="relative w-full bg-[#091f3f] scroll-smooth text-white z-40">  
     <div className="w-full h-48 mx-auto bg-white z-50 pt-24">
     <div className="w-full sm:w-1/2 sm:rounded-none md:rounded-xl text-center sm:h-48 mx-auto bg-blue-700 z-50 flex flex-col sm:flex-row items-center justify-center">
     <h1 className="uppercase font-semibold text-xl sm:text-3xl my-2 sm:my-0 mx-2 sm:mx-5">A guide for smiling hearts</h1>
