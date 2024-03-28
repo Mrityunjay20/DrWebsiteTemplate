@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
+import Head from "next/head"; // Import Head component from Next.js for managing the <head> section
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,11 +13,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </Head>
       <body className={inter.className}>
         {children}
         <Analytics />
-        </body>
-        
+      </body>
     </html>
   );
 }
