@@ -4,7 +4,7 @@ import { Chip } from "@material-tailwind/react";
 export default function AboutSection() {
   return (
     <>
-      <section id="About" className="text-gray-800 body-font sm:-mt-6 md:mt-24 lg:mt-36">
+      <section id="About" className="text-gray-800 px-2 body-font sm:-mt-6 md:mt-24 lg:mt-36">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <Chip variant="outlined" color="cyan" value="About Me" size="lg" className="mb-4" />
