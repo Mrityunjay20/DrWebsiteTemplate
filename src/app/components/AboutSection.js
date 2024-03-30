@@ -14,8 +14,8 @@ export default function AboutSection() {
             <p className="mb-3 leading-relaxed">
             An <strong>Interventional Cardiologist</strong>  <br/>associated with Anant Heart Hospital Bhopal.
             </p>
-            <ul className="mb-6">
-            <li className="flex items-center text-left my-auto">
+            <ul className="mb-6 sm:px-8 px-2">
+            <li className="flex items-center sm:px-8 text-left my-auto">
                     <img
                       src="/tick.svg"
                       alt="tick Icon"
@@ -24,7 +24,7 @@ export default function AboutSection() {
                     />
                     Performed 10,000+ Successful Procedures and counting.
              </li>
-             <li className="flex items-center text-left my-auto">
+             <li className="flex items-center sm:px-8 text-left my-auto">
                     <img
                       src="/tick.svg"
                       alt="tick Icon"
@@ -33,7 +33,7 @@ export default function AboutSection() {
                     />
                     Expertise in doing interventions through trans-radial route.
              </li>
-             <li className="flex items-center text-left my-auto">
+             <li className="flex items-center sm:px-8 text-left my-auto">
                     <img
                       src="/tick.svg"
                       alt="tick Icon"
@@ -43,8 +43,8 @@ export default function AboutSection() {
                     Proficient in doing Complex/Left Main/High Risk /Bifurcation Angioplasties.
              </li>
             </ul>
-            <p className="mb-6 px-2">Performs most of his angioplasties through the Trans-radial route (Through the wrist), even for complex angioplasties such as those involving large side branches (Bifurcation stenting) and for heart attacks (Primary PCI / Heart Attack Angioplasty). This helps achieve excellent results with great patient comfort and minimal risk of complications.</p>
-            <p className="mb-6 px-2">Believes in exploring new frontiers to provide the best available care to his patients for the betterment of their lives. Firmly believes in honest communication which allows patients to make fully informed choices.</p>
+            <p className="mb-6 px-3">Performs most of his angioplasties through the Trans-radial route (Through the wrist), even for complex angioplasties such as those involving large side branches (Bifurcation stenting) and for heart attacks (Primary PCI / Heart Attack Angioplasty). This helps achieve excellent results with great patient comfort and minimal risk of complications.</p>
+            <p className="mb-6 px-3">Believes in exploring new frontiers to provide the best available care to his patients for the betterment of their lives. Firmly believes in honest communication which allows patients to make fully informed choices.</p>
             <div className="flex justify-center">
               <a href="https://www.instagram.com/drbrijesh_shrivastava?igsh=ejJ2ZHpkOTkxNnJo">
               <button className="inline-flex mr-3 ml-1 text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none duration-100 hover:bg-blue-900 rounded text-lg">

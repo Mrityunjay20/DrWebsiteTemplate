@@ -280,7 +280,7 @@ export function NavbarWithMegaMenu() {
           <img
             src="logo.png"
             alt="Logo Placeholder"
-            className="sm:h-[25px] sm:w-[100px] md:h-[100px] md:w-[350px] md:ml-16 -py-6 contrast-100"
+            className="sm:h-[10px] sm:w-[40px] md:h-[50px] md:w-[175px] md:ml-16 -py-6 contrast-100"
           />
           <div className="hidden bg-white lg:block">
             <NavList />
