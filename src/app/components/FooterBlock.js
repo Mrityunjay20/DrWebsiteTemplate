@@ -24,7 +24,7 @@ export function FooterBlock() {
     <div className="w-full h-48 mx-auto bg-white z-50 pt-24">
     <div className="w-full sm:w-1/2 sm:rounded-none md:rounded-xl text-center sm:h-48 mx-auto bg-blue-700 z-50 flex flex-col sm:flex-row items-center justify-center">
     <h1 className="uppercase font-semibold text-xl sm:text-3xl my-2 sm:my-0 mx-2 sm:mx-5">A guide for smiling hearts</h1>
-    <Button color="red" className="my-2 sm:my-0 mx-2 sm:mx-5">Download</Button>
+    <a href="/brochure.pdf" target="_blank" rel="noopener noreferrer"> <Button color="red" className="my-2 sm:my-0 mx-2 sm:mx-5">Download</Button></a>
 </div>
     </div>
       <div className="mx-auto w-full max-w-7xl px-8 z-40">
@@ -92,12 +92,12 @@ export function FooterBlock() {
                     />
                     <a href="mailto:info@drbrijeshshrivastava.com">
                       <span className="mr-3 hover:text-blue-100 duration-100">
-                        info@drbrijeshshrivastava.com 
+                        brijshri@gmail.com 
                       </span>
                     </a>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className="flex items-center text-right my-auto">
                     <img
                       src="/phone.svg"
@@ -107,7 +107,7 @@ export function FooterBlock() {
                     />
                     <a className=" hover:text-blue-100 duration-100" href="tel:9244001669">+91 9244001669</a>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className="flex items-center text-right my-auto">
                     <img
@@ -133,7 +133,7 @@ export function FooterBlock() {
 
           <div className="flex items-center text-right p-4 px-8 my-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.804683036345!2d77.42887297609552!3d23.213787609163948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42525ba96299%3A0x5a0d7d7bdc091214!2sRhythm%20Heart%20Clinic!5e0!3m2!1sen!2sin!4v1709419675486!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.2581779113048!2d77.4394287754297!3d23.23369030841657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c437c9274780d%3A0xa4f10f3edcee8279!2sDr.%20Brijesh%20Shrivastava!5e0!3m2!1sen!2sin!4v1716662538156!5m2!1sen!2sin"
               className="w-96 h-96 hidden lg:flex"
               allowFullScreen=""
               referrerPolicy="no-referrer-when-downgrade"

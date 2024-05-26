@@ -42,12 +42,12 @@ import { Alert } from "@material-tailwind/react";
 const navListMenuItems = [
   {
     title: "Angiography",
-    description: "Experience our unparalleled precision of Angiography: A sophisticated medical imaging solution, illuminating vascular intricacies with unrivaled clarity and detail.",
+    description: "Angiography is a type of X-ray used to check blood vessels. Blood vessels do not show clearly on a normal X-ray, so a special dye called a contrast agent needs to be injected into your blood first.This highlights your blood vessels, allowing your doctor to see any problems.",
     icon: HeartIcon,
   },
   {
     title: "Angioplasty (PICA)",
-    description: "Using advanced imaging techniques and specialized equipment, our experienced medical team precisely identifies areas of concern within the arteries and employs innovative techniques to widen the narrowed segments, enhancing blood flow and alleviating symptoms associated with vascular disease.",
+    description: "Angioplasty is a procedure used to open blocked coronary arteries caused by coronary artery disease. It restores blood flow to the heart muscle without open-heart surgery. Angioplasty can be done in an emergency setting, such as a heart attack",
     icon: CogIcon,
   },
   {
@@ -269,7 +269,7 @@ export function NavbarWithMegaMenu() {
         </div>
         <div className="flex items-center text-right p-4 px-8 my-auto bg-blue-700">
           <img src="/mail.svg" alt="Mail Icon" className="mr-2" width="20px" />
-          <a href="mailto:info@drbrijeshshrivastava.com"><span className="mr-3">info@drbrijeshshrivastava.com | </span></a>
+          <a href="mailto:brijshri@gmail.com"><span className="mr-3">brijshri@gmail.com | </span></a>
           <img src="/phone.svg" alt="Mail Icon" className="mr-2" width="20px" />
           <a href="tel:90 960 69751">
           <span> 90 960 69751</span></a>

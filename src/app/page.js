@@ -17,7 +17,7 @@ export default function Home() {
       <AboutSection/>
       <Gallery/>
       <Jumbotron/>
-      <Testimonials/>
+      <Testimonials className="scroll-smooth"/>
       <FooterBlock/>
   </div>
   )
