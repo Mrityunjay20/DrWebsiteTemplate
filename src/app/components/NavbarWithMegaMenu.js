@@ -37,7 +37,6 @@ import {
   TagIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/solid";
-import { Alert } from "@material-tailwind/react";
 
 const navListMenuItems = [
   {
