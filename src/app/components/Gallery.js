@@ -46,7 +46,7 @@ export default function Gallery() {
       <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src='/twodecho.png' />
       <div className="flex-grow px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-85 duration-300 hover:opacity-0">
         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">2D echo and color Doppler</h1>
-        <p className="leading-relaxed">This Doppler technique is used to measure and assess the flow of blood through the heart's chambers and valves. The amount of blood pumped out with each beat is an indication of the heart's functioning. Also, Doppler can detect abnormal blood flow within the heart, which can indicate a problem with one or more of the heart's four valves, or with the heart's walls.</p>
+        <p className="leading-relaxed">This Doppler technique is used to measure and assess the flow of blood through the heart&apos;s chambers and valves. The amount of blood pumped out with each beat is an indication of the heart&apos;s functioning. Also, Doppler can detect abnormal blood flow within the heart, which can indicate a problem with one or more of the heart&apos;s four valves, or with the heart&apos;s walls.</p>
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@ export default function Gallery() {
       <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/holtermoni.jpeg" />
       <div className="flex-grow px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-85 duration-300 hover:opacity-0">
         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Holter monitoring</h1>
-        <p className="leading-relaxed">A Holter monitor is a type of portable electrocardiogram (ECG). It records the electrical activity of the heart over 24 hours or longer while you are away from your healthcare provider's office. Small, electrodes are put on certain points on the chest and abdomen. The electrodes are connected to an ECG machine by wires.</p>
+        <p className="leading-relaxed">A Holter monitor is a type of portable electrocardiogram (ECG). It records the electrical activity of the heart over 24 hours or longer while you are away from your healthcare provider&apos;s office. Small, electrodes are put on certain points on the chest and abdomen. The electrodes are connected to an ECG machine by wires.</p>
       </div>
     </div>
   </div>
