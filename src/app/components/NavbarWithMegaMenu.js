@@ -202,7 +202,7 @@ function NavList() {
           About
         </ListItem>
       </Typography>
-      <Typography
+      {/* <Typography
         as="a"
         href="#"
         variant="h6"
@@ -223,7 +223,7 @@ function NavList() {
         <ListItem className="flex items-center hover:text-light-blue-700 gap-2 py-2 pr-4">
           Gallery
         </ListItem>
-      </Typography>
+      </Typography> */}
       <Typography
         as="a"
         href="#testimonials"

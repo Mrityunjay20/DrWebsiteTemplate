@@ -8,11 +8,11 @@ export function CarouselSlider() {
         alt="image 1"
         className="h-full w-full object-contain"
       />
-      <img
+      {/* <img
         src="/b2.png"
         alt="image 1"
         className="h-full w-full object-contain"
-      />
+      /> */}
       
     </Carousel>
     </>

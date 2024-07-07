@@ -16,7 +16,7 @@ export default function Home() {
       <Details/>
       <AboutSection/>
       <Gallery/>
-      <Jumbotron/>
+      {/* <Jumbotron/> */}
       <Testimonials className="scroll-smooth"/>
       <FooterBlock/>
   </div>
