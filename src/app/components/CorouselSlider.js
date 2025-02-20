@@ -2,7 +2,7 @@ import { Carousel } from "@material-tailwind/react";
  
 export function CarouselSlider() {
   return (<>
-    <Carousel className="w-auto mx-auto">
+    <div className="w-auto mx-auto">
       <img
         src="/b2.png"
         alt="image 1"
@@ -14,7 +14,7 @@ export function CarouselSlider() {
         className="h-full w-full object-contain"
       /> */}
       
-    </Carousel>
+    </div>
     </>
   );
 }
