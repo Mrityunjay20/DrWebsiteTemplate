@@ -2,7 +2,7 @@ import { Carousel } from "@material-tailwind/react";
  
 export function CarouselSlider() {
   return (<>
-    <Carousel transition={{ duration: 1 }} className="w-auto mx-auto">
+    <Carousel className="w-auto mx-auto">
       <img
         src="/b2.png"
         alt="image 1"
