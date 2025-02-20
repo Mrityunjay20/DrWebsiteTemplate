@@ -202,7 +202,7 @@ function NavList() {
           About
         </ListItem>
       </Typography>
-      {/* <Typography
+       {/* <Typography
         as="a"
         href="#"
         variant="h6"
@@ -212,7 +212,7 @@ function NavList() {
         <ListItem className="flex items-center hover:text-light-blue-700 gap-2 py-2 pr-4">
           Videos
         </ListItem>
-      </Typography>
+      </Typography> */}
       <Typography
         as="a"
         href="/Gallery"
@@ -223,7 +223,7 @@ function NavList() {
         <ListItem className="flex items-center hover:text-light-blue-700 gap-2 py-2 pr-4">
           Gallery
         </ListItem>
-      </Typography> */}
+      </Typography>
       <Typography
         as="a"
         href="#testimonials"
@@ -264,7 +264,7 @@ export function NavbarWithMegaMenu() {
     <>
       <div className="hidden scroll-smooth duration-300 lg:flex justify-between bg-[#f8a240]">
         <div className="text-left p-4 font-semibold text-white">
-          Opening Hours: Mon - Sat : 6.00 am - 9.00 pm, Sunday Closed
+          Opening Hours: Mon - Sat : 6.30 pm - 8.30 pm, Sunday Closed
         </div>
         <div className="flex items-center text-right p-4 px-8 my-auto bg-blue-700">
           <img src="/mail.svg" alt="Mail Icon" className="mr-2" width="20px" />

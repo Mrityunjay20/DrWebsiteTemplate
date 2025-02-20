@@ -12,15 +12,15 @@ export default function Details() {
                     </h1>
                     <p className="leading-relaxed mb-3">
                       Mon - Fri:{" "}
-                      <span className="text-right">6:00pm - 9:00pm.</span>
+                      <span className="text-right">6:30pm - 8:30pm</span>
                     </p>
-                    <p className="leading-relaxed mb-3">
+                    {/* <p className="leading-relaxed mb-3">
                       Wednesday: 8:00pm - 9:00pm
                     </p>
                     <p className="leading-relaxed mb-3">
                       Saturday: 6:00pm - 8:00pm
-                    </p>
-                    <p className="leading-relaxed mb-3">Sunday: Holiday</p>
+                    </p> */}
+                    <p className="leading-relaxed mb-3">Sunday: Closed</p>
                   </div>
                 </div>
                 <div className="p-4 lg:w-1/3">
